@@ -64,6 +64,7 @@ package predefines these derived units:
     ips          inches per second
     J            joule
     kat          katal
+    L            liter
     l            liter
     lightyear    light year
     lm           lumen
