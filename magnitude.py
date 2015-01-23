@@ -1105,8 +1105,10 @@ def _init_mags():
     new_mag('"', Magnitude(0.0254, m=1))  # inch
     new_mag('lightyear', Magnitude(2.99792458e8 * 365.25 * 86400, m=1))
 
-    # volume
+    # volume in new DIN
     new_mag('l', Magnitude(0.001, m=3))
+    # volume
+    new_mag('L', Magnitude(0.001, m=3))
 
     # time
     # year is tropical year, "the mean interval between vernal
